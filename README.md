@@ -1,5 +1,7 @@
 # LanScope
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 LanScope is a lightweight asset discovery scanner for internal networks.
 
 It discovers reachable hosts, scans selected TCP ports, collects basic service
