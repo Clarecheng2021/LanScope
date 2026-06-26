@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="LanScope logo" width="720">
+</p>
+
 # LanScope
 
 [English](README.md) | [简体中文](README.zh-CN.md)
