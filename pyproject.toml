@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lanscope"
+version = "0.1.0"
+description = "Lightweight internal asset discovery scanner"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "LanScope" }]
+license = { text = "MIT" }
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Networking",
+]
+dependencies = []
+
+[project.scripts]
+lanscope = "lanscope.cli:main"
+lanscope-web = "lanscope.web:main"
+
+[tool.setuptools.packages.find]
+include = ["lanscope*"]
